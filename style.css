@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.mota-ft a:hover {
+    color: var(--vang);
+}
+
+.mota-ft a {
+    text-decoration: none!important;
+    color: white;
+    transition: 0.4s;
+    padding: 10px;
+}
+
+p.mota-ft {
+    margin-top: 18px;
+}
+
+.contacts .col {
+    text-align: center;
+    transition: 0.4s;
+}
+
+.icon {
+    font-size: 54px;
+}
+
+.khoi4 {
+    padding: 96px;
+    color: white;
+    background-color: var(--xam);
+}
+
+nav.d-flex.align-items-center.fixed-top.thunho {
+    height: 72px;
+}
+
+footer .icon i {
+    width: 56px;
+    height: 56px;
+    border: 2px solid white;
+    border-radius: 50%;
+    line-height: 56px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 21px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+footer .icon i:hover {
+    background-color: white;
+    color: var(--xam);
+}
+
+p.mota-ft {
+    font-size: 21px;
+}
+
+.contacts {
+    background-color: var(--xam);
+    padding: 54px;
+    color: white;
+    height: 220px;
+}
+
+.contacts .icon:hover {
+    cursor: pointer;
+    color: var(--vang);
+}
+
+.icon {
+    padding: 20px;
+}
+button.nut4 {
+    padding: 18px 24px;
+    font-size: 21px;
+    background-color: var(--vang);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 0.5px solid #ccc;
+    font-size: 24px;
+    line-height: 64px;
+}
+
+input {
+    width: 100%;
+    height: 96px;
+    border: none;
+    border-bottom: 0.5px solid #ccc;
+    font-size: 24px;
+}
+
+form {
+    width: 760px;
+    margin: auto;
+}
+
+button.nut3 {
+    color: white;
+    padding: 18px 32px;
+    background-color: #0000;
+    font-size: 21px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 24px;
+    transition: 0.4s;
+}
+
+button.nut3:hover {
+    background-color: white;
+    color: black;
+}
+
+p.noidung {
+    text-align: left;
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 24px;
+}
+
+.khoi3 {
+    background-color: var(--vang);
+    padding: 96px;
+}
+
+.layer2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 2;
+    color: white;
+    font-size: 72px;
+    opacity: 0;
+    transition: 0.4s;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 0px 20px white;
+}
+
+.layer2 i {
+    line-height: 253px;
+}
+
+.chialayer {
+    width: 350px;
+    height: 511.66px;
+    position: relative;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.chialayer:hover .layer2 {
+    opacity: 1;
+}
+
+img.layer1 {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 1;
+    border-radius: 8px;
+    height: 511.66px;
+    width: 350px;
+}
+
+.khoi2 {
+    padding: 96px;
+    color: var(--xam);
+    margin-bottom: 90px;
+}
+
+p.mota1 {
+    font-size: 24px;
+    margin-top: 24px;
+    color: var(--xam);
+}
+
+.sao {
+    display: flex;
+    width: 336px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.khoi2 .ke-ngang {
+    background-color: var(--xam);
+}
+
+.khoi4 .ke-ngang {
+    background-color: white;
+}
+
+
+
+.ke-ngang {
+    width: 350px;
+    height: 6px;
+    background-color: var(--xam);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+header {
+    background-color: var(--vang);
+    padding: 145px;
+}
+
+p.menu {
+    background-color: #9990;
+    padding: 16px 14px;
+    margin: 0;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+p.menu:hover {
+    color: var(--vang);
+}
+.logo:hover {
+    color: var(--vang);
+}
+
+.col.d-flex {
+    justify-content: space-between;
+}
+
+nav {
+    background-color: var(--xam);
+    color: white;
+    text-transform: uppercase;
+    height: 96px;
+    transition: 0.4s;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    --xam: #2c3e50;
+    --vang: #ecb807;
+}
+
+p.bottom-bar {
+    background-color: #1a252f;
+    padding: 24px;
+    margin: 0;
+    font-size: 80%;
+}
+
+a.link {
+    color: var(--vang);
+}
+
+img.anh1 {
+    width: 250px;
+    margin-bottom: 38px;
+    margin-top: 60px;
+    border-radius: 50%;
+    border: solid 15px white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4.tieude-ft {
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+h2.tieude2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+h1.tieude1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: var(--xam);
+}
+
+h3.logo {
+    margin: 0;
+    margin-right: 500px;
+    line-height: 56px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 40px;
+}
+
+nav.thunho h3.logo {
+    font-size: 24px;
+}
+
+.menu.active {
+    background-color: var(--vang);
+}
+
+.menu.active:hover {
+    color: white;
+}
+
